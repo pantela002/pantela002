@@ -36,9 +36,10 @@ task queue, per-task locking and crash recovery.
 for CNN inference. Worker pools with dynamic scaling, DAG dependencies, fault
 recovery and a live dashboard over WebSockets.
 
-**Daily AI Chat Game**: full-stack web game (Next.js, Supabase, Stripe) where all
-players face the same AI character each day and an LLM scores every conversation
-on confidence, creativity and smoothness.
+**Study Feed**: Flutter app that turns course materials (PDFs, text, YouTube
+links) into summaries, quizzes and character dialogs with word-synced voiceover,
+studied through a vertical TikTok-style feed. Local-first (Drift/SQLite) with a
+spaced-repetition review ladder and optional Firebase backup.
 
 **Open source**: tensor-parallel inference for LLaMA 3.1 8B in JAX/Flax on
 Tenstorrent hardware, contributed to
