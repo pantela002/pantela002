@@ -26,24 +26,16 @@
 Backend and ML infrastructure engineer from Belgrade. I like systems where many
 things run at once: job schedulers, agent orchestration, LLM inference.
 
-### Things I built
+### Open source work
 
-**AI Agent Orchestrator**: Python CLI and daemon that runs several Claude Code
-agents in parallel, each in its own git worktree and tmux session, with a shared
-task queue, per-task locking and crash recovery.
+**[Llama3.1-8B-Jax-Paralel](https://github.com/pantela002/Llama3.1-8B-Jax-Paralel)**:
+tensor-parallel JAX implementation of LLaMA 3.1 8B on a 1x4 device mesh, running
+sharded and unsharded and matching the Hugging Face PyTorch reference. Done as part
+of my work on [Tenstorrent's TT-XLA](https://github.com/tenstorrent/tt-xla).
 
-**Cloud-Native Distributed Inference Platform**: Kubernetes-style job scheduler
-for CNN inference. Worker pools with dynamic scaling, DAG dependencies, fault
-recovery and a live dashboard over WebSockets.
-
-**Study Feed**: Flutter app that turns course materials (PDFs, text, YouTube
-links) into summaries, quizzes and character dialogs with word-synced voiceover,
-studied through a vertical TikTok-style feed. Local-first (Drift/SQLite) with a
-spaced-repetition review ladder and optional Firebase backup.
-
-**Open source**: tensor-parallel inference for LLaMA 3.1 8B in JAX/Flax on
-Tenstorrent hardware, contributed to
-[TT-XLA](https://github.com/tenstorrent/tt-xla).
+**[Llama-Jax-Paralelism](https://github.com/pantela002/Llama-Jax-Paralelism)**:
+the same model scaled to a 2x4 device mesh, with numerical parity checks against
+the PyTorch baseline.
 
 ### Find me
 
