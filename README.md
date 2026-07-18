@@ -25,8 +25,6 @@
 +++++#########***####################%%%%%%#  
 ```
 
-Backend and ML infrastructure engineer from Belgrade. I like systems where many
-things run at once: job schedulers, agent orchestration, LLM inference.
 
 ### Open source work
 
@@ -39,6 +37,3 @@ of my work on [Tenstorrent's TT-XLA](https://github.com/tenstorrent/tt-xla).
 the same model scaled to a 2x4 device mesh, with numerical parity checks against
 the PyTorch baseline.
 
-### Find me
-
-[pantelicu.space](https://pantelicu.space)
