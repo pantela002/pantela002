@@ -1,30 +1,6 @@
-# Hi, I am Uroš 👋
+# Hi, I am Uroš
 
-```text
-+++++=-:::----:..:-====-----=+++**##*=::::::  
-++==--:::::----===++=--::::-==****#*++=:::::  
-+=--::::::-=++++======--::::---=-=+=::-:::::  
-=--::::-==++-----=====--=-:::---===-..::::::  
-+++++-:=*==--=++*****++++===+**+*++-:.:---::     uros@github
-=++**=-+*+++++***********+=*#*++++=-..:-=-::     -----------
-::::-::*++***+**+****+++++==######*=--:---::     OS:        Windows 11 + WSL Ubuntu
-:::::::**++++*****+---======+++****++=::--::     Uni:       University of Belgrade, EE
-:::::::-++=++====-:----=++**+++======-::::::     Now:       Backend SWE Intern @ Nextesy
-:::--:::-===-::-::+=====++*+++*=-----:::::::     Prev:      Tenstorrent, Microsoft
----::::::-:------:+*+====+++++=-::::::::::::     Languages: Python, C++, Java, TypeScript
----::::::-=-====---=======++++++***++++=::::     Backend:   FastAPI, Django, Postgres, Redis
-----------=======-----==++++++++*******%+:-:     ML:        PyTorch, JAX/Flax, HuggingFace
-::-------:+#======---==++++++=+*******##%-::     Interests: distributed systems, LLM infra
--------:::=%#*+=-============+++**++*%%##+::     Web:       pantelicu.space
-::::::::::-####*+---------=+++++++##%####%=:  
---=++=-:=**#***##*+=-:--==+++++++*#####%#=::  
-#%%%%###%%%##*+***##*+====++++**########*==-  
-#######**######******###*+++*###############  
-**#######**###################*%##########%%  
-++++*######****#########################%%%%  
-+++++#########***####################%%%%%%#  
-```
-
+<img src="assets/card.svg" alt="ASCII portrait of me next to a neofetch-style summary: EE at the University of Belgrade, backend intern at Nextesy, previously Tenstorrent and Microsoft. Python, C++, Java, TypeScript." width="100%">
 
 ### Open source work
 
@@ -37,3 +13,12 @@ of my work on [Tenstorrent's TT-XLA](https://github.com/tenstorrent/tt-xla).
 the same model scaled to a 2x4 device mesh, with numerical parity checks against
 the PyTorch baseline.
 
+### Other things I'm proud of
+
+- **Qualcomm LPCVC 2025, 3rd place.** Image classification under distribution shift,
+  deployed on a Snapdragon 8 Elite through Qualcomm AI Hub. We presented it at CVPR 2025 in Nashville.
+- **Agent orchestrator.** A CLI and daemon that runs several coding agents in parallel,
+  each in its own git worktree and tmux session, pulling from a shared task queue.
+  Tasks can be parked and resumed on any idle worker without losing work.
+- **[pantelicu.space](https://pantelicu.space)** ([source](https://github.com/pantela002/remember)).
+  My personal site, plain HTML/CSS/JS, with a map of places I like in Belgrade and my gym split.
