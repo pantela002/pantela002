@@ -1,21 +1,21 @@
 # Hi, I am Uroš
 
-<img src="assets/card.svg" alt="ASCII portrait of me next to a neofetch-style summary: EE at the University of Belgrade, backend intern at Nextesy, previously Tenstorrent and Microsoft. Python, C++, Java, TypeScript." width="100%">
+<img src="assets/card.svg" alt="ASCII portrait of me next to a neofetch-style summary: EE at the University of Belgrade, open to software engineering roles, previously Nextesy, Tenstorrent and Microsoft. Python, C++, Java, TypeScript." width="100%">
 
 ### Open source work
 
-**[Llama3.1-8B-Jax-Paralel](https://github.com/pantela002/Llama3.1-8B-Jax-Paralel)**:
+**[Llama3.1-8B-Jax-Parallel](https://github.com/pantela002/Llama3.1-8B-Jax-Parallel)**:
 tensor-parallel JAX implementation of LLaMA 3.1 8B on a 1x4 device mesh, running
 sharded and unsharded and matching the Hugging Face PyTorch reference. Done as part
 of my work on [Tenstorrent's TT-XLA](https://github.com/tenstorrent/tt-xla).
 
-**[Llama-Jax-Paralelism](https://github.com/pantela002/Llama-Jax-Paralelism)**:
+**[Llama-Jax-Parallelism](https://github.com/pantela002/Llama-Jax-Parallelism)**:
 the same model scaled to a 2x4 device mesh, with numerical parity checks against
 the PyTorch baseline.
 
 ### Other things I'm proud of
 
-- **Qualcomm LPCVC 2025, 3rd place.** Image classification under distribution shift,
+- **[Qualcomm LPCVC 2025](https://github.com/pantela002/LPCV_2025_T1), 3rd place.** Image classification under distribution shift,
   deployed on a Snapdragon 8 Elite through Qualcomm AI Hub. We presented it at CVPR 2025 in Nashville.
 - **Agent orchestrator.** A CLI and daemon that runs several coding agents in parallel,
   each in its own git worktree and tmux session, pulling from a shared task queue.
