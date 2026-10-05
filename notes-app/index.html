@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Notes</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main id="login-view" class="login" hidden>
+    <form id="login-form" class="card">
+      <h1>Notes</h1>
+      <label>Email
+        <input id="email" type="email" autocomplete="username" required>
+      </label>
+      <label>Password
+        <input id="password" type="password" autocomplete="current-password" required>
+      </label>
+      <button type="submit">Log in</button>
+      <p id="login-error" class="error" role="alert"></p>
+    </form>
+  </main>
+
+  <div id="app-view" class="app" hidden>
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <button id="new-note" type="button">+ New note</button>
+        <input id="search" type="search" placeholder="Search" aria-label="Search notes">
+      </div>
+      <ul id="note-list" class="note-list"></ul>
+      <div class="sidebar-bottom">
+        <span id="user-email" class="muted"></span>
+        <button id="logout" type="button" class="link">Log out</button>
+      </div>
+    </aside>
+
+    <section class="editor">
+      <div id="empty" class="empty muted">Pick a note or make a new one.</div>
+      <form id="editor-form" hidden>
+        <button id="back" type="button" class="link back">‹ Notes</button>
+        <input id="title" type="text" placeholder="Title" aria-label="Title">
+        <textarea id="body" placeholder="Write something…" aria-label="Note"></textarea>
+        <div class="editor-bar">
+          <span id="save-state" class="muted"></span>
+          <button id="delete" type="button" class="danger">Delete</button>
+          <button type="submit">Save</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
